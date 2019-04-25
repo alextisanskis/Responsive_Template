@@ -1,0 +1,112 @@
+
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.header-image{
+    width: 100%;
+    height: 600px;
+    background-color: cadetblue;
+}
+
+.main-area {
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+    background-color: chocolate;
+}
+
+@media (max-width: 800px) {
+    .main-area {
+        padding: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        height: 100%;
+        background-color: chocolate;
+    }
+}
+
+.title-area{
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: blue;
+}
+.subtitle-area{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: aqua;
+}
+
+.selection-area{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+
+.content-area{ 
+    display: inline-block;
+    width: 300px; 
+    height: 500px; 
+    background-color: #f1f1f1; 
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+@media (max-width: 800px) {
+    .content-area{
+        width: 200px;
+        height: 300px;
+    }
+}
+
+.content-image{
+    width: 100%;
+    height: 300px;
+    background-color: brown;
+}
+@media (max-width: 800px) {
+    .content-image{
+        height: 200px;
+    }
+}
+    
+.content-text{
+    margin-top: 10px;
+    width: 100%;
+    height: 180px;
+    background-color: cadetblue;
+}
+@media (max-width: 800px) {
+    .content-text{
+        height: 80px;
+    }
+}
+    
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: forestgreen;
+}
+
+.end-of-block{
+    clear: both;
+}
